@@ -45,20 +45,20 @@ const names = [
   
   // Function to generate random thoughts
   const getRandomThoughts = (int) => {
-    const results = [];
+    const thoughts = [];
     for (let i = 0; i < int; i++) {
-      results.push(getRandomArrItem(randomThoughts));
+      thoughts.push(getRandomArrItem(randomThoughts));
     }
-    return results;
+    return thoughts;
   };
   
   // Function to generate random reactions
   const getRandomReactions = (int) => {
-    const results = [];
+    const reactions = [];
     for (let i = 0; i < int; i++) {
-      results.push(getRandomArrItem(randomReactions));
+      reactions.push(getRandomArrItem(randomReactions));
     }
-    return results;
+    return reactions;
   };
   
   // Export the functions for use in seed.js

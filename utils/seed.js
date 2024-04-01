@@ -29,8 +29,8 @@ connection.once('open', async () => {
 
   // Loop 20 times -- add users to the users array
   for (let i = 0; i < 20; i++) {
-    const emails = getRandomEmail(10); // Generate random emails
-    const friends = getRandomFriends(10).map(() => new ObjectId()); // Generate random ObjectIDs for friends using new ObjectId()
+    const emails = getRandomEmail(1); // Generate random emails
+    const friends = getRandomFriends(1).map(() => new ObjectId()); // Generate random ObjectIDs for friends using new ObjectId()
 
     const fullName = getRandomName();
     const first = fullName.split(' ')[0];
@@ -49,7 +49,7 @@ connection.once('open', async () => {
   // Create empty array to hold the thoughts, add thoughts to array & add to collection
   const thoughts = [];
   for (let i = 0; i < 20; i++) {
-    const thoughts = getRandomThoughts(10); // Generate random thoughts
+    const thoughts = getRandomThoughts(); // Generate random thoughts
     
     thoughts.push({
       thoughts
@@ -60,7 +60,7 @@ connection.once('open', async () => {
  // Create empty array to hold the reactions, add reactions to array & add to collection
  const reactions = [];
  for (let i = 0; i < 20; i++) {
-   const reactions = getRandomThoughts(10); // Generate random reactions
+   const reactions = getRandomReactions(); // Generate random reactions
   
    reactions.push({
      reactions
