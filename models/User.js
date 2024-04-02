@@ -13,7 +13,7 @@ const userSchema = new Schema(
     },
     email: {
       type: String,
-      required: false,
+      required: true,
       maxlength: 50,
       unique: true, // Unique
       validate: [isEmail, 'Invalid email address'], // Must match a valid email address

@@ -25,11 +25,12 @@ const names = [
   
   // Generates a random email address
   const getRandomEmail = () => {
-    const domains = ['gmail.com', 'yahoo.com', 'hotmail.com', 'outlook.com'];
-    const randomName = names[Math.floor(Math.random() * names.length)].toLowerCase();
-    const domain = getRandomArrItem(domains);
-    return `${randomName}@${domain}`;
-  };
+  const domains = ['gmail.com', 'yahoo.com', 'hotmail.com', 'outlook.com'];
+  const randomName = names[Math.floor(Math.random() * names.length)].toLowerCase();
+  const domain = domains[Math.floor(Math.random() * domains.length)];
+  const randomNumber = Math.floor(Math.random() * 1000); // Add a random number
+  return `${randomName}${randomNumber}@${domain}`;
+};
   
   // Gets a random full name
   const getRandomName = () => `${getRandomArrItem(names)} ${getRandomArrItem(names)}`;
