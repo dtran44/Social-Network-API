@@ -18,6 +18,8 @@ N/A
 
 GitHub Link: https://github.com/dtran44/Social-Network-API
 
+Video Link: 
+
 Screenshot:![alt text](https://github.com/dtran44/Social-Network-API/blob/main/assets/screenshot.jpg)
 
 ## License
