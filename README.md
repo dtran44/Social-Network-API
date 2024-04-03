@@ -18,7 +18,7 @@ N/A
 
 GitHub Link: https://github.com/dtran44/Social-Network-API
 
-Screenshot:![alt text](https://github.com/dtran44/Note-Taker/blob/main/public/assets/Note%20Taker%20app%20screenshot.png)
+Screenshot:![alt text](https://github.com/dtran44/Social-Network-API/blob/main/assets/screenshot.jpg)
 
 ## License
 
