@@ -18,7 +18,7 @@ N/A
 
 GitHub Link: https://github.com/dtran44/Social-Network-API
 
-Video Link: 
+Video Link: https://drive.google.com/file/d/1NbF8kn5PHIDEKyzu7dIQ-YRPGc-lCCon/view?usp=sharing
 
 Screenshot:![alt text](https://github.com/dtran44/Social-Network-API/blob/main/assets/screenshot.jpg)
 
